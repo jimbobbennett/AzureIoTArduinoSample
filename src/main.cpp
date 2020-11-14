@@ -10,6 +10,7 @@ const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 0;
 const int   daylightOffset_sec = 0;
 
+// The IoT Hub service
 IoTHubService iot_service;
 
 // Arduino setup function. This is run once by the OS when the
